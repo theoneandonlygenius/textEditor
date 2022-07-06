@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WYSIWYG Editor</title>
+</head>
+
+<body>
+    
+    <div class="outer">
+        <div class="controls">
+            <div class="control-btn-container">
+                <button class="btn btn-dark control-btn" id="bold-btn" title = "Bold">B</button>
+                <button class=" btn btn-dark control-btn" id="underline-btn"title = "Underline">U</button>
+                <button class=" btn btn-dark control-btn" id="italic-btn"title = "Italic">I</button>
+				<button class=" btn btn-dark control-btn" id="st-btn"title = "Strikethrough">ST</button>
+            </div>
+			
+			<div class="control-btn-container">
+                <button class="btn btn-dark control-btn" id="fontSize" title = "Small Font">1</button>
+				<button class="btn btn-dark control-btn" id="fontSize2"title = "Medium Font">2</button>
+				<button class="btn btn-dark control-btn" id="fontSize3"title = "Large Font">3</button>
+            </div>
+			
+			<div class="control-btn-container">
+				<button class="btn btn-dark control-btn" id="h1"title = "Large Heading" onclick = "letsTry()">H1</button>
+				<button class="btn btn-dark control-btn" id="h2"title = "Medium Heading">H2</button>
+				<button class="btn btn-dark control-btn" id="h4"title = "Small Heading">H4</button>
+				
+                <button class="btn btn-dark control-btn" id="ari" title = "Change font">Arial</button>
+				<button class="btn btn-dark control-btn" id="s" title = "Change font">Serif</button>
+				<button class="btn btn-dark control-btn" id="ss" title = "Change font">Stencil</button>
+				
+				<input type = "color" class = "control-btn" id="color-btn"title = "Change the colour"/>
+            </div>
+			
+			
+			
+			<div class="control-btn-container">
+                <button class="btn btn-dark control-btn" title = "Justify Left" id="jl">⌞</button>
+				<button class="btn btn-dark control-btn" title = "Justify Right" id="jr">⌟</button>
+				<button class="btn btn-dark control-btn" title = "Justify Center" id="jc">-</button>
+				<button class="btn btn-dark control-btn" title = "Justify Full" id="jf">─</button>
+            </div>
+			
+			
+
+        </div>
+		<div class="controls">
+			<div class="control-btn-container">
+                <button class="btn btn-dark control-btn" id="olb"title = "Ordered list">1.</button>
+				<button class="btn btn-dark control-btn" id="ul"title = "Un-ordered list">●</button>
+				<button class="btn btn-dark control-btn" id="ind"title = "Indent">_Abc</button>
+            </div>
+		
+			<div class="control-btn-container">
+                <button class="btn btn-dark control-btn" title = "Insert Image" id="img">📷</button>
+				<button class="btn btn-dark control-btn" title = "Insert Video" id="vid">🎥</button>
+				<button class="btn btn-dark control-btn" title = "Insert Link" id="linK">🔗</button>
+				
+				
+            </div>
+		</div>
+
+        <div id="content" contenteditable="true" spellcheck='false'>
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+				 Nullam quis nisi eget erat malesuada finibus id nec ligula.
+				 Curabitur in leo tincidunt, ultrices tellus eu, dictum quam.
+				 In et ipsum turpis. Aenean eu luctus massa, non sollicitudin enim. 
+				 Maecenas ullamcorper felis varius nisi cursus, eleifend accumsan 
+				 erat fringilla. Cras ac elit ac urna vestibulum interdum. Sed ultrices
+				 fermentum ante, eget venenatis dolor luctus at. 
+				 Morbi cursus lorem neque, sit amet rhoncus risus egestas finibus. 
+				 Ut egestas aliquam odio eget porta. Suspendisse hendrerit ultrices 
+				 ligula, id tempor dolor eleifend nec. Praesent vel felis hendrerit,
+				 iaculis ligula sit amet, gravida nisi. Praesent nec porttitor turpis. 
+				 Proin feugiat est ac suscipit tempus. Aenean ex enim, ultrices sit ame
+				 t tortor hendrerit, ullamcorper ullamcorper ligula. Donec molestie massa 
+				 in mi efficitur ultricies. Pellentesque tristique commodo quam in consectetur.
+				 <br><br>
+				Sed faucibus tellus in elit facilisis cursus. Aliquam bibendum blandit nisi eget varius. Sed sed dolor eu turpis pretium rhoncus. Praesent bibendum sapien quis purus auctor vulputate. Ut sem tellus, imperdiet id elementum vel, aliquam sed nisi. Donec tempor est id massa tincidunt, at scelerisque est lacinia. Aliquam eget gravida eros.
+				<br><br>
+				Maecenas laoreet gravida arcu quis ornare. Pellentesque in leo ut purus aliquet rutrum. Vestibulum in elementum ipsum, sit amet maximus odio. Pellentesque convallis pellentesque arcu sit amet congue. Phasellus eu leo quam. Quisque in orci ac massa tincidunt commodo. Nunc et lacus non ex placerat condimentum. Nam auctor lorem augue. Morbi condimentum sit amet lorem non dictum. Aenean in sem sed dolor condimentum sodales a eget lacus. 
+        </div>
+
+    </div>
+    
+    <script src = "script.js">
+
+	</script>
+</body>
+
+</html>

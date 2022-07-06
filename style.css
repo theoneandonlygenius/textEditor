@@ -1,0 +1,48 @@
+.controls{
+    display:block;
+    justify-content: center;
+	margin: 10px;
+}
+
+.control-btn-container{
+    display:inline;
+	justify-content:center;
+	border: 1px grey;
+	margin:10px 20px;
+}
+
+.control-btn{
+    margin-left: 10px;
+    width: 50px;
+    height: 30px;
+	background: #333333;
+	color: white;
+	border-radius: 12px;
+}
+
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+
+#content{
+    padding:10px;
+    outline: none;
+    min-height: 300px;
+    margin:30px;
+    box-shadow: 0 0 5px #808080;
+}
+
+#color-btn{
+	/* height:50px; */
+}
+
+body{
+	background: #D3D3D3;
+}
+
+/* 13 min dropdown tut*/
